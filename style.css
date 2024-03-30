@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box; 
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .task-item{
+    background-color: black;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  #add-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  #add-item button {
+    background-color: black;
+    color: white;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .input-container input,
+  .input-container select {
+    margin-right: 10px;
+    border: 2px solid #000;
+    padding: 5px;
+  }
+  
+  .input-container button {
+    flex-shrink: 0;
+  }
+  
+  #task-sections {
+    width: 100%;
+  
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  .task-item span {
+    flex: 55%; 
+    margin-right: 20px; 
+  }
+  
+  .deadline {
+    flex: 30%; 
+    margin-right: 20px; 
+  }
+  
+  .priority {
+    flex: 30%; 
+    margin-right: 20px; 
+  }
+  
+  .task-item .buttons {
+    flex: 30%; 
+    display: flex; 
+    justify-content: flex-end; 
+  }
+  
+  .task-item .buttons i {
+    margin-left: 10px; 
+  }
+  
+  .task-item.past-due {
+    border: 2px solid red;
+  }
+  
+  #today-tasks-list,
+  #future-tasks-list,
+  #completed-tasks-list {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+  }
+  
+  #completed-tasks-list {
+    background-color: white;
+    color: white;
+  }
+  
+  .todo {
+    text-align: center; 
+  }
+  
